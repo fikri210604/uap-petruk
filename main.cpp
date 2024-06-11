@@ -5,28 +5,13 @@
 #include <cstring>
 #include <queue>
 #include <fstream>
-template <class T, class U>
-class mobil{
-    T plat;
-    U waktuMasuk;
-    U WaktuKeluar;
-    U Durasi;
-    
-};
+#include "Function/FungsiParkir.h"
+
 int main(){
-    std::ifstream inputFile("./Data/Akun.txt");
-    if (!inputFile.is_open()) {
-        std::cerr << "Error opening input file!" << std::endl;
-        return 1;
-    }
-    std::vector<std::string> lines;
-    std::string line;
-    while (std::getline(inputFile, line)) {
-        lines.push_back(line);
-    }
-    inputFile.close();
-    for (const std::string& str : lines) {
-        std::cout << str << std::endl;
-    }
+    mobil a;
+    //judul();
+    //char slot[4] = {'B','0','3'};
+    //cekSlot('A',slot,"mobil");
+    judul();
     return 0;
 }
