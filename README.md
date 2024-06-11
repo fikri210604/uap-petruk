@@ -39,7 +39,3 @@ Proyek ini bertujuan untuk mengembangkan sebuah program yang memudahkan pengguna
 4. **Menerima Struk Parkir dan Barcode**:
    - Sistem menghasilkan struk parkir dan barcode yang dikirimkan kepada pengguna.
    - Pengguna dapat menggunakan barcode tersebut untuk mengakses lahan parkir yang telah dipesan.
-
-### Kesimpulan
-
-Proyek ini menawarkan solusi modern untuk memudahkan pengguna dalam memesan tempat parkir melalui sistem yang terintegrasi. Dengan adanya fitur registrasi, login, pencarian lokasi parkir, pemilihan tempat parkir, konfirmasi pemesanan, serta struk dan barcode parkir, pengguna dapat menikmati pengalaman memesan tempat parkir yang efisien dan tanpa hambatan.
