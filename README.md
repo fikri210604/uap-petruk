@@ -40,5 +40,5 @@ Proyek ini bertujuan untuk mengembangkan sebuah program yang memudahkan pengguna
    - Sistem menghasilkan struk parkir dan barcode yang dikirimkan kepada pengguna.
    - Pengguna dapat menggunakan barcode tersebut untuk mengakses lahan parkir yang telah dipesan.
 
-#Dokumentasi : Pengerjaan dan Pembahasan codingan program bersama
+# Dokumentasi : Pengerjaan dan Pembahasan codingan program bersama
 ![kerkom](https://github.com/fikri210604/uap-petruk/assets/144132158/fc186e0d-7ef1-4783-a862-cb5e2f589c03)
