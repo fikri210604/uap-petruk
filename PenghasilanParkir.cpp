@@ -52,26 +52,34 @@ std::vector<int> divide(std::vector<int>& data) {
     return merge(left, right);
 }
 
-int main() {
-    std::string filename = "./Function/Data/HasilParkir.txt"; // Replace with your text file name
-    std::vector<int> data = readDataFromFile(filename);
+template <class T,class U>
+class penghasilanParkir{
+    public:
+    T data;
+    U stack;
+    void start(){
+    std::string filename = "./Function/Data/HasilParkir.txt";
+    data = readDataFromFile(filename);
+    }
+};
 
+int main() {
+    penghasilanParkir<std::vector<int>,std::stack<int>> parkir;
+    parkir.start();
     std::cout << "Unsorted data: ";
-    for (int num : data) {
+    for (int num : parkir.data) {
         std::cout << num << " ";
     }
     std::cout << std::endl;
-
-    data = divide(data);
+    parkir.data = divide(parkir.data);
 
     std::cout << "Sorted data: ";
-    std::stack<int> stack;
-    for (int num : data) {
-        stack.push(num);
+    for (int num : parkir.data) {
+        parkir.stack.push(num);
     }
-    while (!stack.empty()) {
-        std::cout << stack.top() << " ";
-        stack.pop();
+    while (!parkir.stack.empty()) {
+        std::cout << parkir.stack.top() << " ";
+        parkir.stack.pop();
     }
     std::cout << std::endl;
 
